@@ -1,0 +1,4 @@
+requests
+signalfx_lambda
+requests-opentracing
+urllib3<1.26,>=1.25.4
