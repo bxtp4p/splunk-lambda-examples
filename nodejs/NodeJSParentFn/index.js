@@ -86,5 +86,5 @@ const getServerTraceContext = eventData => {
     const traceId = eventData.headers['x-b3-traceid'];
     const parentId = eventData.headers['x-b3-spanid'];
     
-    return `traceparent;desc="00-${traceId}-${parentId}-01"`;
+    return `00-${traceId}-${parentId}-01`;
 }
